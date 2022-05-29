@@ -24,3 +24,6 @@ variable "vpcid" {
   description = "ID of the VPC in which security resources are deployed"
   type = string
 }
+variable "aws_private_key"{
+  description = "SSH Private Key used for connecting to instances"
+}

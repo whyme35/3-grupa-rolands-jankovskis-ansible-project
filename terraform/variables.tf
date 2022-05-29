@@ -25,3 +25,6 @@ variable "availability_zones" {
 variable "instance_type" {
   description = "The NGINX EC2 instance type"
 }
+variable "aws-private-key-location"{
+  description = "SSH Private Key used for connecting to instances"
+}

@@ -14,4 +14,5 @@ module "prod-ec2"{
     vpcid = module.prod-vpc.vpc_id
     subnet_id = module.prod-vpc.public_subnets_id[0]
     vpc_security_group_idsc = module.prod-vpc.security_groups_ids
+    aws_private_key = var.aws-private-key-location
 }
