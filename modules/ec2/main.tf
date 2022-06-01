@@ -103,7 +103,7 @@ destination = "/tmp/hosts"
       "mkdir ~/ansible-codes",
       "sudo apt-get install subversion -y",
       "git clone https://github.com/whyme35/lu-vumc-devops.ansible-ubuntu.git ~/ansible-codes/lu-vumc-devops.ansible-ubuntu",
-      "ansible-playbook ~/ansible-codes/lu-vumc-devops.ansible-ubuntu/WebSuperPage.yml --ssh-common-args='-o StrictHostKeyChecking=accept-new'",
+      "ansible-playbook ~/ansible-codes/lu-vumc-devops.ansible-ubuntu/WebSuperPage_HA-Proxy.yml --ssh-common-args='-o StrictHostKeyChecking=accept-new'",
     ]
 
   connection {
